@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3</title>
+</head>
+<body>
+    <form>
+        Enter a number to find if it is odd/even: 
+        <input type="number" id="n">
+        <input type="submit" onclick="find()">
+    </form>
+    <script>
+        function find(){
+    var n= document.getElementById("n").value;
+    if(n%2)
+        alert(n+" is an odd number");
+    else
+        alert(n+" is an even number");
+}
+    </script>
+</body>
+</html>
